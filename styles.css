@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:40255,300,500,700);
+* {
+	font-family:Roboto,Arial;
+	font-size:20px
+}
+
+html {
+    color: #333;
+	font-size: inherit;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+
+.title {
+    background-color: red;
+    display: inline-flex;
+    align-content: center;
+    width: 100%;
+    min-height: 5%;
+    background: url('images/Google.png');
+}
+
+.buttons{
+    position: fixed;
+    width: 100%;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin: auto;
+    border: none;
+}
+
+.GoogleDocs .GoogleSlides .GoogleSpreadsheet {
+    background-origin: inherit;
+    background-position: center;
+    width: fit-content;
+    text-align: center;
+    background-size: 100%;
+}
+
+.GoogleDocs {
+    background: url('images/docs.png');
+}
+
+.GoogleSpreadsheet {
+    background: url('images/spread.png');
+}
+
+.GoogleSlides {
+    background: url('images/slides.png');
+}
