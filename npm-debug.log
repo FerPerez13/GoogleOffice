@@ -1,0 +1,568 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json googleoffice@1.0.0 No description
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/mnt/c/Users/Fer/Documents/Projects/Electron/GoogleOffice',
+6 verbose install   [ 'electron' ] ]
+7 info preinstall googleoffice@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'electron@^1.6.11', null ]
+10 verbose cache add name=undefined spec="electron@^1.6.11" args=["electron@^1.6.11",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'electron@^1.6.11',
+11 verbose parsed url   path: 'electron@^1.6.11',
+11 verbose parsed url   href: 'electron@^1.6.11' }
+12 verbose cache add name="electron" spec="^1.6.11" args=["electron","^1.6.11"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '^1.6.11',
+13 verbose parsed url   path: '^1.6.11',
+13 verbose parsed url   href: '^1.6.11' }
+14 verbose addNamed [ 'electron', '^1.6.11' ]
+15 verbose addNamed [ null, '>=1.6.11-0 <2.0.0-0' ]
+16 silly lockFile d8b6b73c-electron-1-6-11 electron@^1.6.11
+17 verbose lock electron@^1.6.11 /home/fer/.npm/d8b6b73c-electron-1-6-11.lock
+18 silly addNameRange { name: 'electron',
+18 silly addNameRange   range: '>=1.6.11-0 <2.0.0-0',
+18 silly addNameRange   hasData: false }
+19 verbose url raw electron
+20 verbose url resolving [ 'https://registry.npmjs.org/', './electron' ]
+21 verbose url resolved https://registry.npmjs.org/electron
+22 info trying registry request attempt 1 at 23:00:47
+23 verbose etag "5970fa33-1b891"
+24 http GET https://registry.npmjs.org/electron
+25 http 304 https://registry.npmjs.org/electron
+26 silly registry.get cb [ 304,
+26 silly registry.get   { date: 'Mon, 24 Jul 2017 21:00:47 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     etag: '"5970fa33-1b891"',
+26 silly registry.get     age: '168',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-mad9430-MAD',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1500930048.926041,VS0,VE0',
+26 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+27 verbose etag electron from cache
+28 silly addNameRange number 2 { name: 'electron', range: '>=1.6.11-0 <2.0.0-0', hasData: true }
+29 silly addNameRange versions [ 'electron',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '1.3.3',
+29 silly addNameRange     '1.3.4',
+29 silly addNameRange     '1.3.5',
+29 silly addNameRange     '1.3.6',
+29 silly addNameRange     '1.4.0',
+29 silly addNameRange     '1.4.1',
+29 silly addNameRange     '1.3.7',
+29 silly addNameRange     '1.4.2',
+29 silly addNameRange     '1.4.3',
+29 silly addNameRange     '1.4.4',
+29 silly addNameRange     '1.3.8',
+29 silly addNameRange     '1.4.5',
+29 silly addNameRange     '1.4.6',
+29 silly addNameRange     '1.4.7',
+29 silly addNameRange     '1.3.9',
+29 silly addNameRange     '1.3.10',
+29 silly addNameRange     '1.4.8',
+29 silly addNameRange     '1.3.12',
+29 silly addNameRange     '1.4.10',
+29 silly addNameRange     '1.3.13',
+29 silly addNameRange     '1.4.11',
+29 silly addNameRange     '1.4.12',
+29 silly addNameRange     '1.4.13',
+29 silly addNameRange     '1.4.14',
+29 silly addNameRange     '1.4.15',
+29 silly addNameRange     '1.5.0',
+29 silly addNameRange     '1.5.1',
+29 silly addNameRange     '1.6.0',
+29 silly addNameRange     '1.6.1',
+29 silly addNameRange     '1.6.2',
+29 silly addNameRange     '1.6.3',
+29 silly addNameRange     '1.3.14',
+29 silly addNameRange     '1.6.4',
+29 silly addNameRange     '1.6.5',
+29 silly addNameRange     '1.4.16',
+29 silly addNameRange     '1.6.6',
+29 silly addNameRange     '1.6.7',
+29 silly addNameRange     '1.3.15',
+29 silly addNameRange     '1.6.8',
+29 silly addNameRange     '1.6.9',
+29 silly addNameRange     '1.7.0',
+29 silly addNameRange     '1.6.10',
+29 silly addNameRange     '1.7.1',
+29 silly addNameRange     '1.6.11',
+29 silly addNameRange     '1.7.2',
+29 silly addNameRange     '1.7.3',
+29 silly addNameRange     '1.7.4',
+29 silly addNameRange     '1.7.5' ] ]
+30 verbose addNamed [ 'electron', '1.6.11' ]
+31 verbose addNamed [ '1.6.11', '1.6.11' ]
+32 silly lockFile ce07280e-electron-1-6-11 electron@1.6.11
+33 verbose lock electron@1.6.11 /home/fer/.npm/ce07280e-electron-1-6-11.lock
+34 silly lockFile a0fb1c9e-org-electron-electron-1-6-11-tgz https://registry.npmjs.org/electron/-/electron-1.6.11.tgz
+35 verbose lock https://registry.npmjs.org/electron/-/electron-1.6.11.tgz /home/fer/.npm/a0fb1c9e-org-electron-electron-1-6-11-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/electron/-/electron-1.6.11.tgz',
+36 verbose addRemoteTarball   'be79c0ebdcefedb5bf28117409800fa53baceffa' ]
+37 info retry fetch attempt 1 at 23:00:48
+38 verbose fetch to= /home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/tmp.tgz
+39 http GET https://registry.npmjs.org/electron/-/electron-1.6.11.tgz
+40 http 200 https://registry.npmjs.org/electron/-/electron-1.6.11.tgz
+41 verbose tar unpack /home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/tmp.tgz
+42 silly lockFile f4baccac-048019-0-687233722070232-package tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package
+43 verbose lock tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package /home/fer/.npm/f4baccac-048019-0-687233722070232-package.lock
+44 silly lockFile c07537ab-048019-0-687233722070232-tmp-tgz tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/tmp.tgz
+45 verbose lock tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/tmp.tgz /home/fer/.npm/c07537ab-048019-0-687233722070232-tmp-tgz.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry
+48 silly gunzTarPerm modified mode [ '', 509, 493 ]
+49 silly gunzTarPerm extractEntry .gitignore
+50 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+51 silly gunzTarPerm extractEntry .npmignore
+52 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+53 silly gunzTarPerm extractEntry .travis.yml
+54 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+55 silly gunzTarPerm extractEntry CONTRIBUTING.md
+56 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
+57 silly gunzTarPerm extractEntry LICENSE
+58 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+61 silly gunzTarPerm extractEntry appveyor.yml
+62 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+63 silly gunzTarPerm extractEntry cli.js
+64 silly gunzTarPerm modified mode [ 'cli.js', 509, 493 ]
+65 silly gunzTarPerm extractEntry electron.d.ts
+66 silly gunzTarPerm modified mode [ 'electron.d.ts', 436, 420 ]
+67 silly gunzTarPerm extractEntry index.js
+68 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+69 silly gunzTarPerm extractEntry install.js
+70 silly gunzTarPerm modified mode [ 'install.js', 509, 493 ]
+71 silly gunzTarPerm extractEntry issue_template.md
+72 silly gunzTarPerm modified mode [ 'issue_template.md', 436, 420 ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+75 silly gunzTarPerm extractEntry test/
+76 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+77 silly gunzTarPerm extractEntry test/errors.js
+78 silly gunzTarPerm modified mode [ 'test/errors.js', 436, 420 ]
+79 silly gunzTarPerm extractEntry test/index.js
+80 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+81 silly lockFile f4baccac-048019-0-687233722070232-package tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package
+82 silly lockFile f4baccac-048019-0-687233722070232-package tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package
+83 silly lockFile c07537ab-048019-0-687233722070232-tmp-tgz tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/tmp.tgz
+84 silly lockFile c07537ab-048019-0-687233722070232-tmp-tgz tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/tmp.tgz
+85 verbose tar pack [ '/home/fer/.npm/electron/1.6.11/package.tgz',
+85 verbose tar pack   '/home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package' ]
+86 verbose tarball /home/fer/.npm/electron/1.6.11/package.tgz
+87 verbose folder /home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package
+88 silly lockFile f4baccac-048019-0-687233722070232-package tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package
+89 verbose lock tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package /home/fer/.npm/f4baccac-048019-0-687233722070232-package.lock
+90 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+91 verbose lock tar:///home/fer/.npm/electron/1.6.11/package.tgz /home/fer/.npm/19f816ee--npm-electron-1-6-11-package-tgz.lock
+92 silly lockFile f4baccac-048019-0-687233722070232-package tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package
+93 silly lockFile f4baccac-048019-0-687233722070232-package tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930048019-0.687233722070232/package
+94 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+95 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+96 silly lockFile 61115512--fer-npm-electron-1-6-11-package /home/fer/.npm/electron/1.6.11/package
+97 verbose lock /home/fer/.npm/electron/1.6.11/package /home/fer/.npm/61115512--fer-npm-electron-1-6-11-package.lock
+98 silly lockFile 61115512--fer-npm-electron-1-6-11-package /home/fer/.npm/electron/1.6.11/package
+99 silly lockFile 61115512--fer-npm-electron-1-6-11-package /home/fer/.npm/electron/1.6.11/package
+100 verbose tar unpack /home/fer/.npm/electron/1.6.11/package.tgz
+101 silly lockFile e5475650--fer-npm-electron-1-6-11-package tar:///home/fer/.npm/electron/1.6.11/package
+102 verbose lock tar:///home/fer/.npm/electron/1.6.11/package /home/fer/.npm/e5475650--fer-npm-electron-1-6-11-package.lock
+103 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+104 verbose lock tar:///home/fer/.npm/electron/1.6.11/package.tgz /home/fer/.npm/19f816ee--npm-electron-1-6-11-package-tgz.lock
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 silly gunzTarPerm extractEntry package.json
+107 silly gunzTarPerm extractEntry README.md
+108 silly gunzTarPerm extractEntry LICENSE
+109 silly gunzTarPerm extractEntry cli.js
+110 silly gunzTarPerm extractEntry index.js
+111 silly gunzTarPerm extractEntry install.js
+112 silly gunzTarPerm extractEntry electron.d.ts
+113 silly lockFile e5475650--fer-npm-electron-1-6-11-package tar:///home/fer/.npm/electron/1.6.11/package
+114 silly lockFile e5475650--fer-npm-electron-1-6-11-package tar:///home/fer/.npm/electron/1.6.11/package
+115 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+116 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+117 verbose chmod /home/fer/.npm/electron/1.6.11/package.tgz 644
+118 verbose chown /home/fer/.npm/electron/1.6.11/package.tgz [ 1000, 1000 ]
+119 silly lockFile a0fb1c9e-org-electron-electron-1-6-11-tgz https://registry.npmjs.org/electron/-/electron-1.6.11.tgz
+120 silly lockFile a0fb1c9e-org-electron-electron-1-6-11-tgz https://registry.npmjs.org/electron/-/electron-1.6.11.tgz
+121 silly lockFile ce07280e-electron-1-6-11 electron@1.6.11
+122 silly lockFile ce07280e-electron-1-6-11 electron@1.6.11
+123 silly lockFile d8b6b73c-electron-1-6-11 electron@^1.6.11
+124 silly lockFile d8b6b73c-electron-1-6-11 electron@^1.6.11
+125 silly resolved [ { name: 'electron',
+125 silly resolved     version: '1.6.11',
+125 silly resolved     description: 'Install prebuilt electron binaries for the command-line using npm',
+125 silly resolved     repository:
+125 silly resolved      { type: 'git',
+125 silly resolved        url: 'https://github.com/electron-userland/electron-prebuilt' },
+125 silly resolved     scripts:
+125 silly resolved      { 'cache-clean': 'rm -rf ~/.electron && rm -rf dist',
+125 silly resolved        postinstall: 'node install.js',
+125 silly resolved        pretest: 'npm run cache-clean && npm run postinstall',
+125 silly resolved        test: 'tape test/*.js && standard' },
+125 silly resolved     bin: { electron: 'cli.js' },
+125 silly resolved     main: 'index.js',
+125 silly resolved     types: 'electron.d.ts',
+125 silly resolved     dependencies:
+125 silly resolved      { '@types/node': '^7.0.18',
+125 silly resolved        'electron-download': '^3.0.1',
+125 silly resolved        'extract-zip': '^1.0.3' },
+125 silly resolved     devDependencies:
+125 silly resolved      { 'home-path': '^0.1.1',
+125 silly resolved        'path-exists': '^2.0.0',
+125 silly resolved        standard: '^5.4.1',
+125 silly resolved        tape: '^3.0.1' },
+125 silly resolved     author: { name: 'Mathias Buus' },
+125 silly resolved     license: 'MIT',
+125 silly resolved     directories: { test: 'test' },
+125 silly resolved     keywords: [ 'electron' ],
+125 silly resolved     readme: '# electron-prebuilt\n\n[![Travis build status](http://img.shields.io/travis/electron-userland/electron-prebuilt.svg?style=flat)](http://travis-ci.org/electron-userland/electron-prebuilt)\n[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/hxcd9vcdn9hr0b3y/branch/master?svg=true)](https://ci.appveyor.com/project/electron-bot/electron-prebuilt/branch/master)\n\n[![badge](https://nodei.co/npm/electron.png?downloads=true)](https://www.npmjs.com/package/electron)\n\nInstall [Electron](https://github.com/electron/electron) prebuilt binaries for\ncommand-line use using npm. This module helps you easily install the `electron`\ncommand for use on the command line without having to compile anything.\n\n[Electron](http://electron.atom.io) is a JavaScript runtime that bundles Node.js\nand Chromium. You use it similar to the `node` command on the command line for\nexecuting JavaScript programs. For more info you can read [this intro blog post](http://maxogden.com/electron-fundamentals.html)\nor dive into the [Electron documentation](http://electron.atom.io/docs).\n\n## Installation\n\n**Note** As of version 1.3.1, this package is published to npm under two names:\n`electron` and `electron-prebuilt`. You can currently use either name, but\n`electron` is recommended, as the `electron-prebuilt` name is deprecated, and\nwill only be published until the end of 2016.\n\nDownload and install the latest build of Electron for your OS and add it to your\nproject\'s `package.json` as a `devDependency`:\n\n```shell\nnpm install electron --save-dev\n```\n\nThis is the preferred way to use Electron, as it doesn\'t require users to\ninstall Electron globally.\n\nYou can also use the `-g` flag (global) to symlink it into your PATH:\n\n```shell\nnpm install -g electron\n```\n\nIf that command fails with an `EACCESS` error you may have to run it again with `sudo`:\n\n```shell\nsudo npm install -g electron\n```\n\nNow you can just run `electron` to run electron:\n\n```shell\nelectron\n```\n\nIf you need to use an HTTP proxy you can [set these environment variables](https://github.com/request/request/tree/f0c4ec061141051988d1216c24936ad2e7d5c45d#controlling-proxy-behaviour-using-environment-variables).\n\nIf you want to change the architecture that is downloaded (e.g., `ia32` on an\n`x64` machine), you can use the `--arch` flag with npm install or set the\n`npm_config_arch` environment variable:\n\n```shell\nnpm install --arch=ia32 electron\n```\n\n## About\n\nWorks on Mac, Windows and Linux OSes that Electron supports (e.g. Electron\n[does not support Windows XP](https://github.com/electron/electron/issues/691)).\n\nThe version numbers of this module match the version number of the [official\nElectron releases](https://github.com/electron/electron/releases), which\n[do not follow semantic versioning](http://electron.atom.io/docs/tutorial/electron-versioning/).\n\nThis module is automatically released whenever a new version of Electron is\nreleased thanks to [electron-prebuilt-updater](https://github.com/electron/electron-prebuilt-updater),\noriginally written by [John Muhl](https://github.com/johnmuhl/).\n\n## Usage\n\nFirst, you have to [write an Electron application](http://electron.atom.io/docs/tutorial/quick-start/).\n\nThen, you can run your app using:\n\n```shell\nelectron your-app/\n```\n\n## Related modules\n\n- [electron-packager](https://github.com/electron-userland/electron-packager) -\n  Package and distribute your Electron app with OS-specific bundles\n  (.app, .exe etc)\n- [electron-builder](https://github.com/electron-userland/electron-builder) -\n  create installers\n- [menubar](https://github.com/maxogden/menubar) - high level way to create\n  menubar desktop applications with electron\n\nFind more at the [awesome-electron](https://github.com/sindresorhus/awesome-electron) list.\n\n## Programmatic usage\n\nMost people use this from the command line, but if you require `electron` inside\nyour **Node app** (not your Electron app) it will return the file path to the\nbinary. Use this to spawn Electron from Node scripts:\n\n```javascript\nvar electron = require(\'electron\')\nvar proc = require(\'child_process\')\n\n// will print something similar to /Users/maf/.../Electron\nconsole.log(electron)\n\n// spawn Electron\nvar child = proc.spawn(electron)\n```\n',
+125 silly resolved     readmeFilename: 'README.md',
+125 silly resolved     bugs: { url: 'https://github.com/electron-userland/electron-prebuilt/issues' },
+125 silly resolved     _id: 'electron@1.6.11',
+125 silly resolved     dist: { shasum: 'd5e4bd4c192f6a0daffdac3df066b08490ee2628' },
+125 silly resolved     _from: 'electron@^1.6.11',
+125 silly resolved     _resolved: 'https://registry.npmjs.org/electron/-/electron-1.6.11.tgz' } ]
+126 info install electron@1.6.11 into /mnt/c/Users/Fer/Documents/Projects/Electron/GoogleOffice
+127 info installOne electron@1.6.11
+128 info /mnt/c/Users/Fer/Documents/Projects/Electron/GoogleOffice/node_modules/electron unbuild
+129 verbose tar unpack /home/fer/.npm/electron/1.6.11/package.tgz
+130 silly lockFile d15f0816-ogleOffice-node-modules-electron tar:///mnt/c/Users/Fer/Documents/Projects/Electron/GoogleOffice/node_modules/electron
+131 verbose lock tar:///mnt/c/Users/Fer/Documents/Projects/Electron/GoogleOffice/node_modules/electron /home/fer/.npm/d15f0816-ogleOffice-node-modules-electron.lock
+132 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+133 verbose lock tar:///home/fer/.npm/electron/1.6.11/package.tgz /home/fer/.npm/19f816ee--npm-electron-1-6-11-package-tgz.lock
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gunzTarPerm extractEntry package.json
+136 silly gunzTarPerm extractEntry README.md
+137 silly gunzTarPerm extractEntry LICENSE
+138 silly gunzTarPerm extractEntry cli.js
+139 silly gunzTarPerm extractEntry index.js
+140 silly gunzTarPerm extractEntry install.js
+141 silly gunzTarPerm extractEntry electron.d.ts
+142 silly lockFile d15f0816-ogleOffice-node-modules-electron tar:///mnt/c/Users/Fer/Documents/Projects/Electron/GoogleOffice/node_modules/electron
+143 silly lockFile d15f0816-ogleOffice-node-modules-electron tar:///mnt/c/Users/Fer/Documents/Projects/Electron/GoogleOffice/node_modules/electron
+144 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+145 silly lockFile 19f816ee--npm-electron-1-6-11-package-tgz tar:///home/fer/.npm/electron/1.6.11/package.tgz
+146 info preinstall electron@1.6.11
+147 verbose readDependencies using package.json deps
+148 verbose readDependencies using package.json deps
+149 verbose cache add [ '@types/node@^7.0.18', null ]
+150 verbose cache add name=undefined spec="@types/node@^7.0.18" args=["@types/node@^7.0.18",null]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: '@types/node@^7.0.18',
+151 verbose parsed url   path: '@types/node@^7.0.18',
+151 verbose parsed url   href: '@types/node@^7.0.18' }
+152 verbose cache add name="" spec="types/node@^7.0.18" args=["","types/node@^7.0.18"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: 'types/node@^7.0.18',
+153 verbose parsed url   path: 'types/node@^7.0.18',
+153 verbose parsed url   href: 'types/node@^7.0.18' }
+154 verbose cache add name="types/node" spec="^7.0.18" args=["types/node","^7.0.18"]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '^7.0.18',
+155 verbose parsed url   path: '^7.0.18',
+155 verbose parsed url   href: '^7.0.18' }
+156 verbose addNamed [ 'types/node', '^7.0.18' ]
+157 verbose addNamed [ null, '>=7.0.18-0 <8.0.0-0' ]
+158 silly lockFile 2ebc17da-types-node-7-0-18 types/node@^7.0.18
+159 verbose lock types/node@^7.0.18 /home/fer/.npm/2ebc17da-types-node-7-0-18.lock
+160 verbose cache add [ 'electron-download@^3.0.1', null ]
+161 verbose cache add name=undefined spec="electron-download@^3.0.1" args=["electron-download@^3.0.1",null]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: 'electron-download@^3.0.1',
+162 verbose parsed url   path: 'electron-download@^3.0.1',
+162 verbose parsed url   href: 'electron-download@^3.0.1' }
+163 verbose cache add name="electron-download" spec="^3.0.1" args=["electron-download","^3.0.1"]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: '^3.0.1',
+164 verbose parsed url   path: '^3.0.1',
+164 verbose parsed url   href: '^3.0.1' }
+165 verbose addNamed [ 'electron-download', '^3.0.1' ]
+166 verbose addNamed [ null, '>=3.0.1-0 <4.0.0-0' ]
+167 silly lockFile 8d1cab67-electron-download-3-0-1 electron-download@^3.0.1
+168 verbose lock electron-download@^3.0.1 /home/fer/.npm/8d1cab67-electron-download-3-0-1.lock
+169 verbose cache add [ 'extract-zip@^1.0.3', null ]
+170 verbose cache add name=undefined spec="extract-zip@^1.0.3" args=["extract-zip@^1.0.3",null]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: 'extract-zip@^1.0.3',
+171 verbose parsed url   path: 'extract-zip@^1.0.3',
+171 verbose parsed url   href: 'extract-zip@^1.0.3' }
+172 verbose cache add name="extract-zip" spec="^1.0.3" args=["extract-zip","^1.0.3"]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: '^1.0.3',
+173 verbose parsed url   path: '^1.0.3',
+173 verbose parsed url   href: '^1.0.3' }
+174 verbose addNamed [ 'extract-zip', '^1.0.3' ]
+175 verbose addNamed [ null, '>=1.0.3-0 <2.0.0-0' ]
+176 silly lockFile 9879f4ae-extract-zip-1-0-3 extract-zip@^1.0.3
+177 verbose lock extract-zip@^1.0.3 /home/fer/.npm/9879f4ae-extract-zip-1-0-3.lock
+178 silly addNameRange { name: 'types/node',
+178 silly addNameRange   range: '>=7.0.18-0 <8.0.0-0',
+178 silly addNameRange   hasData: false }
+179 silly addNameRange { name: 'electron-download',
+179 silly addNameRange   range: '>=3.0.1-0 <4.0.0-0',
+179 silly addNameRange   hasData: false }
+180 verbose url raw types/node
+181 verbose url resolving [ 'https://registry.npmjs.org/', './types/node' ]
+182 verbose url resolved https://registry.npmjs.org/types/node
+183 info trying registry request attempt 1 at 23:00:48
+184 http GET https://registry.npmjs.org/types/node
+185 verbose url raw electron-download
+186 verbose url resolving [ 'https://registry.npmjs.org/', './electron-download' ]
+187 verbose url resolved https://registry.npmjs.org/electron-download
+188 info trying registry request attempt 1 at 23:00:48
+189 http GET https://registry.npmjs.org/electron-download
+190 silly addNameRange { name: 'extract-zip',
+190 silly addNameRange   range: '>=1.0.3-0 <2.0.0-0',
+190 silly addNameRange   hasData: false }
+191 verbose url raw extract-zip
+192 verbose url resolving [ 'https://registry.npmjs.org/', './extract-zip' ]
+193 verbose url resolved https://registry.npmjs.org/extract-zip
+194 info trying registry request attempt 1 at 23:00:48
+195 http GET https://registry.npmjs.org/extract-zip
+196 http 200 https://registry.npmjs.org/electron-download
+197 silly registry.get cb [ 200,
+197 silly registry.get   { server: 'nginx/1.10.1',
+197 silly registry.get     'content-type': 'application/json',
+197 silly registry.get     'last-modified': 'Sat, 08 Jul 2017 23:45:41 GMT',
+197 silly registry.get     etag: '"59616ea5-c0da"',
+197 silly registry.get     'cache-control': 'max-age=300',
+197 silly registry.get     'content-length': '49370',
+197 silly registry.get     'accept-ranges': 'bytes',
+197 silly registry.get     date: 'Mon, 24 Jul 2017 21:00:48 GMT',
+197 silly registry.get     via: '1.1 varnish',
+197 silly registry.get     age: '0',
+197 silly registry.get     connection: 'keep-alive',
+197 silly registry.get     'x-served-by': 'cache-mad9435-MAD',
+197 silly registry.get     'x-cache': 'MISS',
+197 silly registry.get     'x-cache-hits': '0',
+197 silly registry.get     'x-timer': 'S1500930049.814729,VS0,VE99',
+197 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+198 silly addNameRange number 2 { name: 'electron-download',
+198 silly addNameRange   range: '>=3.0.1-0 <4.0.0-0',
+198 silly addNameRange   hasData: true }
+199 silly addNameRange versions [ 'electron-download',
+199 silly addNameRange   [ '1.0.0',
+199 silly addNameRange     '1.0.1',
+199 silly addNameRange     '1.0.2',
+199 silly addNameRange     '1.0.3',
+199 silly addNameRange     '1.0.4',
+199 silly addNameRange     '1.0.5',
+199 silly addNameRange     '1.0.6',
+199 silly addNameRange     '1.0.7',
+199 silly addNameRange     '1.0.8',
+199 silly addNameRange     '1.1.0',
+199 silly addNameRange     '1.2.0',
+199 silly addNameRange     '1.3.0',
+199 silly addNameRange     '1.4.0',
+199 silly addNameRange     '1.4.1',
+199 silly addNameRange     '2.0.0',
+199 silly addNameRange     '2.1.0',
+199 silly addNameRange     '2.1.1',
+199 silly addNameRange     '2.1.2',
+199 silly addNameRange     '2.2.0',
+199 silly addNameRange     '2.2.1',
+199 silly addNameRange     '3.0.0',
+199 silly addNameRange     '3.0.1',
+199 silly addNameRange     '3.0.2',
+199 silly addNameRange     '3.1.0',
+199 silly addNameRange     '3.2.0',
+199 silly addNameRange     '3.3.0',
+199 silly addNameRange     '4.0.0',
+199 silly addNameRange     '4.1.0' ] ]
+200 verbose addNamed [ 'electron-download', '3.3.0' ]
+201 verbose addNamed [ '3.3.0', '3.3.0' ]
+202 silly lockFile 176a5c80-electron-download-3-3-0 electron-download@3.3.0
+203 verbose lock electron-download@3.3.0 /home/fer/.npm/176a5c80-electron-download-3-3-0.lock
+204 silly lockFile cbafc6af-load-electron-download-3-3-0-tgz https://registry.npmjs.org/electron-download/-/electron-download-3.3.0.tgz
+205 verbose lock https://registry.npmjs.org/electron-download/-/electron-download-3.3.0.tgz /home/fer/.npm/cbafc6af-load-electron-download-3-3-0-tgz.lock
+206 verbose addRemoteTarball [ 'https://registry.npmjs.org/electron-download/-/electron-download-3.3.0.tgz',
+206 verbose addRemoteTarball   '2cfd54d6966c019c4d49ad65fbe65cc9cdef68c8' ]
+207 info retry fetch attempt 1 at 23:00:49
+208 verbose fetch to= /home/fer/tmp/npm-500-2Tw76vaP/1500930049009-0.2686811410821974/tmp.tgz
+209 http GET https://registry.npmjs.org/electron-download/-/electron-download-3.3.0.tgz
+210 http 200 https://registry.npmjs.org/extract-zip
+211 silly registry.get cb [ 200,
+211 silly registry.get   { server: 'nginx/1.10.1',
+211 silly registry.get     'content-type': 'application/json',
+211 silly registry.get     'last-modified': 'Mon, 01 May 2017 05:10:43 GMT',
+211 silly registry.get     etag: '"5906c353-636b"',
+211 silly registry.get     'cache-control': 'max-age=300',
+211 silly registry.get     'content-length': '25451',
+211 silly registry.get     'accept-ranges': 'bytes',
+211 silly registry.get     date: 'Mon, 24 Jul 2017 21:00:49 GMT',
+211 silly registry.get     via: '1.1 varnish',
+211 silly registry.get     age: '0',
+211 silly registry.get     connection: 'keep-alive',
+211 silly registry.get     'x-served-by': 'cache-mad9420-MAD',
+211 silly registry.get     'x-cache': 'MISS',
+211 silly registry.get     'x-cache-hits': '0',
+211 silly registry.get     'x-timer': 'S1500930049.818789,VS0,VE220',
+211 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+212 http 200 https://registry.npmjs.org/electron-download/-/electron-download-3.3.0.tgz
+213 silly addNameRange number 2 { name: 'extract-zip',
+213 silly addNameRange   range: '>=1.0.3-0 <2.0.0-0',
+213 silly addNameRange   hasData: true }
+214 silly addNameRange versions [ 'extract-zip',
+214 silly addNameRange   [ '1.0.0',
+214 silly addNameRange     '1.0.1',
+214 silly addNameRange     '1.0.2',
+214 silly addNameRange     '1.0.3',
+214 silly addNameRange     '1.1.0',
+214 silly addNameRange     '1.1.1',
+214 silly addNameRange     '1.1.2',
+214 silly addNameRange     '1.2.0',
+214 silly addNameRange     '1.3.0',
+214 silly addNameRange     '1.4.0',
+214 silly addNameRange     '1.4.1',
+214 silly addNameRange     '1.5.0',
+214 silly addNameRange     '1.6.0',
+214 silly addNameRange     '1.6.1',
+214 silly addNameRange     '1.6.2',
+214 silly addNameRange     '1.6.3',
+214 silly addNameRange     '1.6.4',
+214 silly addNameRange     '1.6.5' ] ]
+215 verbose addNamed [ 'extract-zip', '1.6.5' ]
+216 verbose addNamed [ '1.6.5', '1.6.5' ]
+217 silly lockFile bd78b835-extract-zip-1-6-5 extract-zip@1.6.5
+218 verbose lock extract-zip@1.6.5 /home/fer/.npm/bd78b835-extract-zip-1-6-5.lock
+219 verbose tar unpack /home/fer/tmp/npm-500-2Tw76vaP/1500930049009-0.2686811410821974/tmp.tgz
+220 silly lockFile 2193c2c0-49009-0-2686811410821974-package tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930049009-0.2686811410821974/package
+221 verbose lock tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930049009-0.2686811410821974/package /home/fer/.npm/2193c2c0-49009-0-2686811410821974-package.lock
+222 silly lockFile 54530ab3-49009-0-2686811410821974-tmp-tgz tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930049009-0.2686811410821974/tmp.tgz
+223 verbose lock tar:///home/fer/tmp/npm-500-2Tw76vaP/1500930049009-0.2686811410821974/tmp.tgz /home/fer/.npm/54530ab3-49009-0-2686811410821974-tmp-tgz.lock
+224 silly lockFile 55ea0c01-xtract-zip-extract-zip-1-6-5-tgz https://registry.npmjs.org/extract-zip/-/extract-zip-1.6.5.tgz
+225 verbose lock https://registry.npmjs.org/extract-zip/-/extract-zip-1.6.5.tgz /home/fer/.npm/55ea0c01-xtract-zip-extract-zip-1-6-5-tgz.lock
+226 silly gunzTarPerm modes [ '755', '644' ]
+227 verbose addRemoteTarball [ 'https://registry.npmjs.org/extract-zip/-/extract-zip-1.6.5.tgz',
+227 verbose addRemoteTarball   '99a06735b6ea20ea9b705d779acffcc87cff0440' ]
+228 info retry fetch attempt 1 at 23:00:49
+229 verbose fetch to= /home/fer/tmp/npm-500-2Tw76vaP/1500930049137-0.7612538654357195/tmp.tgz
+230 http GET https://registry.npmjs.org/extract-zip/-/extract-zip-1.6.5.tgz
+231 silly gunzTarPerm extractEntry package.json
+232 silly gunzTarPerm extractEntry collaborators.md
+233 silly gunzTarPerm extractEntry build/cli.js
+234 silly gunzTarPerm extractEntry build/index.js
+235 silly gunzTarPerm extractEntry readme.md
+236 http 404 https://registry.npmjs.org/types/node
+237 silly registry.get cb [ 404,
+237 silly registry.get   { 'content-type': 'application/json',
+237 silly registry.get     'cache-control': 'max-age=0',
+237 silly registry.get     'content-length': '2',
+237 silly registry.get     'accept-ranges': 'bytes',
+237 silly registry.get     date: 'Mon, 24 Jul 2017 21:00:49 GMT',
+237 silly registry.get     via: '1.1 varnish',
+237 silly registry.get     age: '0',
+237 silly registry.get     connection: 'keep-alive',
+237 silly registry.get     'x-served-by': 'cache-mad9428-MAD',
+237 silly registry.get     'x-cache': 'MISS',
+237 silly registry.get     'x-cache-hits': '0',
+237 silly registry.get     'x-timer': 'S1500930049.820157,VS0,VE474',
+237 silly registry.get     vary: 'Accept-Encoding' } ]
+238 silly addNameRange number 2 { name: 'types/node',
+238 silly addNameRange   range: '>=7.0.18-0 <8.0.0-0',
+238 silly addNameRange   hasData: true }
+239 silly addNameRange versions [ undefined, [] ]
+240 error TypeError: Cannot read property 'latest' of undefined
+240 error     at next (/usr/share/npm/lib/cache.js:687:35)
+240 error     at /usr/share/npm/lib/cache.js:675:5
+240 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+240 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+240 error     at Object.oncomplete (fs.js:107:15)
+241 error If you need help, you may report this log at:
+241 error     <http://github.com/isaacs/npm/issues>
+241 error or email it to:
+241 error     <npm-@googlegroups.com>
+242 error System Linux 4.4.0-43-Microsoft
+243 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+244 error cwd /mnt/c/Users/Fer/Documents/Projects/Electron/GoogleOffice
+245 error node -v v0.10.25
+246 error npm -v 1.3.10
+247 error type non_object_property_load
+248 verbose exit [ 1, true ]
