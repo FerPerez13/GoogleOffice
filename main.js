@@ -1,3 +1,5 @@
+// Inicio de la aplicación
+
 const electron = require('electron')
 const { app, BrowserWindow } = electron
 
